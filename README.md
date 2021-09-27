@@ -1,3 +1,16 @@
+# Descripción #
+
+Proyecto de desarrollo para demostración de operaciones CRUD en bases de datos MongoDB y Mysql mediante el uso de Node.js, TypeScript y Angular
+
+
+# Requisitos #
+
+Para el desarrollo del proyecto se han utilizado los siguientes componentes:
+- npm (v6.14.15)
+- node (v14.17.6)
+- ng (v12.2.7)
+
+
 # Instalación #
 
 Descargar proyecto
@@ -44,7 +57,7 @@ DB_MYSQL_TABLE="mysql_table_name"
 
 - Ejecutar los siguientes comandos para instalar e iniciar servicio:
 ```bash
-npm i
+npm install
 npm run build
 npm start
 ```
@@ -74,7 +87,8 @@ ng serve
 
 Por defecto, CrudClient será accesible desde la siguiente URL: http://localhost:4200
 
-> Nota: se puede desplegar la aplicación en un servidor web aparte. Para ello, ejecutar el siguiente comando:
+> Despliegue en servidor web
+Se puede desplegar la aplicación en un servidor web aparte. Para ello, ejecutar el siguiente comando:
 ```bash
 ng build
 ```
