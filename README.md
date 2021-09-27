@@ -95,4 +95,4 @@ Se puede desplegar la aplicación en un servidor web aparte. Para ello, ejecutar
 ```bash
 ng build
 ```
-En la carpeta "dist/CrudClient" se generarán todos los archivos que se necesitan llevar a la carpeta raíz del servidor web
+Al ejecutar el comando, se generará la transpilación de los archivos TypeScript a Javascript en la carpeta "dist/CrudClient", que son los archivos que se podrán llevar a la carpeta raíz del servidor web.
